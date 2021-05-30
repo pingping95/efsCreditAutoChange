@@ -1,6 +1,3 @@
-# Author : Taehun Kim
-# E-Mail : taehun.kim@bespinglobal.com
-# Date Created : 2021-05-29
 # Python Version : 3.9
 
 import boto3
