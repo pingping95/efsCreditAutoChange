@@ -10,9 +10,14 @@
 
 1. Throughput Mode는 변경할 경우 24시간 동안 변경할 수 없다.
     => 1일 10분 후에 Lambda를 Trigger해야 함
+
 2. 모든 변경 사항은 관리자(Admin)에게 Email로 보고되어야 한다.
     1) EFS Credit Low
     2) EFS Mode Changed {} into {} (Provisioned or Bursting)
+
+3. 각 Service마다 적절한 권한 설정
+
+4. Lambda Timeout 설정
 
 ## 사용 Stack
 
